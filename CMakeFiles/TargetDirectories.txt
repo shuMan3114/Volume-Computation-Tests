@@ -1,0 +1,4 @@
+/workspaces/Volume-Computation-Tests/CMakeFiles/rebuild_cache.dir
+/workspaces/Volume-Computation-Tests/CMakeFiles/edit_cache.dir
+/workspaces/Volume-Computation-Tests/CMakeFiles/volume_estimation_testing_vpoly.dir
+/workspaces/Volume-Computation-Tests/CMakeFiles/lp_solve.dir

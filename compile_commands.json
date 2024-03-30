@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/c++  -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/volume_estimation_testing_vpoly.dir/volume_cg_vpolytope.cpp.o -c /workspaces/Volume-Computation-Tests/volume_cg_vpolytope.cpp",
+  "file": "/workspaces/Volume-Computation-Tests/volume_cg_vpolytope.cpp"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/lp_LUSOL.c.o   -c /volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/lp_LUSOL.c",
+  "file": "/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/lp_LUSOL.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL/lusol.c.o   -c /volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL/lusol.c",
+  "file": "/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL/lusol.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/colamd/colamd.c.o   -c /volesti/external/_deps/lpsolve-src/colamd/colamd.c",
+  "file": "/volesti/external/_deps/lpsolve-src/colamd/colamd.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/ini.c.o   -c /volesti/external/_deps/lpsolve-src/ini.c",
+  "file": "/volesti/external/_deps/lpsolve-src/ini.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/shared/commonlib.c.o   -c /volesti/external/_deps/lpsolve-src/shared/commonlib.c",
+  "file": "/volesti/external/_deps/lpsolve-src/shared/commonlib.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/shared/mmio.c.o   -c /volesti/external/_deps/lpsolve-src/shared/mmio.c",
+  "file": "/volesti/external/_deps/lpsolve-src/shared/mmio.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/shared/myblas.c.o   -c /volesti/external/_deps/lpsolve-src/shared/myblas.c",
+  "file": "/volesti/external/_deps/lpsolve-src/shared/myblas.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_crash.c.o   -c /volesti/external/_deps/lpsolve-src/lp_crash.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_crash.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_Hash.c.o   -c /volesti/external/_deps/lpsolve-src/lp_Hash.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_Hash.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_lib.c.o   -c /volesti/external/_deps/lpsolve-src/lp_lib.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_lib.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_matrix.c.o   -c /volesti/external/_deps/lpsolve-src/lp_matrix.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_matrix.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_MDO.c.o   -c /volesti/external/_deps/lpsolve-src/lp_MDO.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_MDO.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_mipbb.c.o   -c /volesti/external/_deps/lpsolve-src/lp_mipbb.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_mipbb.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_MPS.c.o   -c /volesti/external/_deps/lpsolve-src/lp_MPS.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_MPS.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_params.c.o   -c /volesti/external/_deps/lpsolve-src/lp_params.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_params.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_presolve.c.o   -c /volesti/external/_deps/lpsolve-src/lp_presolve.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_presolve.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_price.c.o   -c /volesti/external/_deps/lpsolve-src/lp_price.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_price.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_pricePSE.c.o   -c /volesti/external/_deps/lpsolve-src/lp_pricePSE.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_pricePSE.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_report.c.o   -c /volesti/external/_deps/lpsolve-src/lp_report.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_report.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_scale.c.o   -c /volesti/external/_deps/lpsolve-src/lp_scale.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_scale.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_simplex.c.o   -c /volesti/external/_deps/lpsolve-src/lp_simplex.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_simplex.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_SOS.c.o   -c /volesti/external/_deps/lpsolve-src/lp_SOS.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_SOS.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_utils.c.o   -c /volesti/external/_deps/lpsolve-src/lp_utils.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_utils.c"
+},
+{
+  "directory": "/workspaces/Volume-Computation-Tests",
+  "command": "/usr/bin/cc -DDISABLE_NLP_ORACLES -DEIGEN_NO_DEBUG -DINVERSE_ACTIVE=3 -DRoleIsExternalInvEngine -I/doctest/doctest -I/volesti/include -I/volesti/external -I/volesti/external/_deps/lpsolve-src/shared -I/volesti/external/_deps/lpsolve-src/colamd -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL/LUSOL -I/volesti/external/_deps/lpsolve-src/bfp/bfp_LUSOL -I/volesti/external/_deps/lpsolve-src/bfp -I/volesti/external/_deps/lpsolve-src -I/volesti/external/_deps/eigen-src -I/volesti/external/_deps/boost-src -I/volesti/external/_deps/boost-src/boost    -std=c++11 -DYY_NEVER_INTERACTIVE -DLoadInverseLib=0 -DLoadLanguageLib=0 -DLoadableBlasLib=0 -o CMakeFiles/lp_solve.dir/volesti/external/_deps/lpsolve-src/lp_wlp.c.o   -c /volesti/external/_deps/lpsolve-src/lp_wlp.c",
+  "file": "/volesti/external/_deps/lpsolve-src/lp_wlp.c"
+}
+]

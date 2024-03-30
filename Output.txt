@@ -1,0 +1,62 @@
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+--- Testing volume of H-cube10
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 1020.25
+Expected volume = 1079.56
+Relative error (expected) = 0.0549422
+Relative error (exact) = 0.00366545
+0
+--- Testing volume of H-cube20
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 1.09227e+06
+Expected volume = 1.1025e+06
+Relative error (expected) = 0.00927829
+Relative error (exact) = 0.0416705
+4
+--- Testing volume of H-cross10
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 0.000268116
+Expected volume = 0.000292199
+Relative error (expected) = 0.0824214
+Relative error (exact) = 0.0498654
+5
+--- Testing volume of H-birk3
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 0.13282
+Expected volume = 0.116678
+Relative error (expected) = 0.138344
+Relative error (exact) = 0.0625581
+0
+--- Testing volume of H-birk4
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 0.000960275
+Expected volume = 0.000450761
+Relative error (expected) = 1.13034
+Relative error (exact) = 0.0100438
+2
+--- Testing volume of H-birk5
+Number type: d
+Method used: cooling_gaussains_HMC
+Computed volume 2.30045e-07
+Expected volume = 2.97522e-08
+Relative error (expected) = 6.73202
+Relative error (exact) = 0.0224202
+7
+--- Testing volume of H-birk6
+Number type: d
+===============================================================================
+/workspaces/Volume-Computation-Tests/volume_cg_hpoly_test.cpp:281:
+TEST CASE:  birk
+
+/workspaces/Volume-Computation-Tests/volume_cg_hpoly_test.cpp:281: FATAL ERROR: test case CRASHED: SIGINT - Terminal interrupt signal
+
+===============================================================================
+[doctest] test cases: 3 | 2 passed | 1 failed | 3 skipped
+[doctest] assertions: 6 | 6 passed | 0 failed |
+[doctest] Status: FAILURE!
