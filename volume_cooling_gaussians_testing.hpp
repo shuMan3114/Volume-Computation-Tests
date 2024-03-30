@@ -7,8 +7,8 @@
 
 // Licensed under GNU LGPL.3, see LICENCE file
 
-#ifndef VOLUME_COOLING_GAUSSIANS_HMC_HPP
-#define VOLUME_COOLING_GAUSSIANS_HMC_HPP
+#ifndef VOLUME_COOLING_GAUSSIANS_HPP
+#define VOLUME_COOLING_GAUSSIANS_HPP
 
 //#define VOLESTI_DEBUG
 
@@ -19,9 +19,8 @@
 #include <chrono>
 
 #include "cartesian_geom/cartesian_kernel.h"
-#include "random_walks/gaussian_hamiltonian_monte_carlo_exact_walk.hpp" //change path before compiling
 #include "random_walks/gaussian_helpers.hpp"
-#include "random_walks/gaussian_ball_walk.hpp"
+#include "random_walks/gaussian_ball_walk.hpp" // change path before compiling
 #include "random_walks/gaussian_cdhr_walk.hpp"
 #include "sampling/random_point_generators.hpp"
 #include "volume/math_helpers.hpp"
@@ -37,10 +36,10 @@ struct update_delta
 };
 
 template <typename Polytope, typename RandomNumberGenerator>
-struct update_delta<GaussianHamiltonianMonteCarloExactWalk::Walk<Polytope, RandomNumberGenerator>>
+struct update_delta<GaussianBallWalk::Walk<Polytope, RandomNumberGenerator>>
 {
     template <typename NT>
-    static void apply(GaussianHamiltonianMonteCarloExactWalk::Walk<Polytope, RandomNumberGenerator> walk,
+    static void apply(GaussianBallWalk::Walk<Polytope, RandomNumberGenerator> walk,
                       NT delta)
     {
         walk.update_delta(delta);
@@ -147,7 +146,6 @@ NT get_next_gaussian(Polytope& P,
     typedef typename std::vector<NT>::iterator viterator;
 
     //sample N points
-    PushBackWalkPolicy push_back_policy;
     auto start = std::chrono::high_resolution_clock::now();
     RandomPointGenerator::apply(P, p, last_a, N, walk_length, randPoints,
                                 push_back_policy, rng);
@@ -234,12 +232,14 @@ void compute_annealing_schedule(Polytope& P,
         NT curr_fn = 0;
         NT curr_its = 0;
         auto steps = totalSteps;
-        auto start = std::chrono::high_resolution_clock::now();
+
         WalkType walk(P, p, a_vals[it], rng);
         //TODO: test update delta here?
 
         update_delta<WalkType>
-                ::apply(walk,4 * chebychev_radius /std::sqrt(std::max(NT(1.0), a_vals[it]) * NT(n)));
+                ::apply(walk, 4.0 * chebychev_radius
+                        / std::sqrt(std::max(NT(1.0), a_vals[it]) * NT(n)));
+
         // Compute some ratios to decide if this is the last gaussian
         auto start = std::chrono::high_resolution_clock::now();
         std::cout << "steps: " << steps << " ";
@@ -295,7 +295,7 @@ template
     typename RandomNumberGenerator
 
 >
-double volume_cooling_gaussians_HMC(Polytope& Pin,
+double volume_cooling_gaussians(Polytope& Pin,
                                 RandomNumberGenerator& rng,
                                 double const& error = 0.1,
                                 unsigned int const& walk_length = 1)
@@ -466,37 +466,36 @@ double volume_cooling_gaussians_HMC(Polytope& Pin,
     return vol;
 }
 
-
 template
 <
-    typename WalkTypePolicy = GaussianHamiltonianMonteCarloExactWalk,
+    typename WalkTypePolicy = GaussianCDHRWalk,
     typename RandomNumberGenerator = BoostRandomNumberGenerator<boost::mt11213b, double>,
     typename Polytope
 >
-double volume_cooling_gaussians_HMC(Polytope &Pin,
+double volume_cooling_gaussians(Polytope &Pin,
                                  double const& error = 0.1,
                                  unsigned int const& walk_length = 1)
 {
     RandomNumberGenerator rng(Pin.dimension());
-    return volume_cooling_gaussians_HMC<WalkTypePolicy>(Pin, rng, error, walk_length);
+    return volume_cooling_gaussians<WalkTypePolicy>(Pin, rng, error, walk_length);
 }
 
 
 template
 <
-    typename WalkTypePolicy = GaussianBallWalk,
+    typename WalkTypePolicy = GaussianCDHRWalk,
     typename RandomNumberGenerator = BoostRandomNumberGenerator<boost::mt11213b, double>,
     typename Polytope
 >
-double volume_cooling_gaussians_HMC(Polytope &Pin,
-                                // Cartesian<double>::Point const& interior_point,
+double volume_cooling_gaussians(Polytope &Pin,
+                                Cartesian<double>::Point const& interior_point,
                                 unsigned int const& walk_length = 1,
                                 double const& error = 0.1)
 {
     RandomNumberGenerator rng(Pin.dimension());
-    // Pin.set_interior_point(interior_point);
+    Pin.set_interior_point(interior_point);
 
-    return volume_cooling_gaussians_HMC<WalkTypePolicy>(Pin, rng, error, walk_length);
+    return volume_cooling_gaussians<WalkTypePolicy>(Pin, rng, error, walk_length);
 }
 
-#endif // VOLUME_COOLING_GAUSSIANS_HMM_HPP
+#endif // VOLUME_COOLING_GAUSSIANS_HPP

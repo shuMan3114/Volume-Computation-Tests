@@ -22,7 +22,7 @@ include("/volesti/external/cmake-files/LPSolve.cmake")
 GetLPSolve()
 
 # Find lpsolve library
-find_library(LP_SOLVE NAMES liblpsolve55.so PATHS /usr/lib/lp_solve)
+find_library(LP_SOLVE NAMES liblpsolve55.so PATHS lp_solve)
 
 if (NOT LP_SOLVE)
   message(FATAL_ERROR "This program requires the lp_solve library, and will not be compiled.")
